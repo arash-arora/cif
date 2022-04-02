@@ -2,6 +2,11 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/Header'
 import Banner from '../components/Banner'
+import HeroBanner from '../components/HeroBanner'
+import Stats from '../components/Stats'
+import Roadmap from '../components/Roadmap'
+import Features from '../components/Features'
+import Clients from '../components/Clients'
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +17,11 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       <Banner />
+      <HeroBanner />
+      <Stats />
+      <Features />
+      <Roadmap />
+      <Clients />
     </div>
   )
 }
