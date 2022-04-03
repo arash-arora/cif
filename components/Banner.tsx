@@ -1,4 +1,4 @@
-import { SpeakerphoneIcon, XIcon } from '@heroicons/react/outline'
+import { HiOutlineSpeakerphone } from 'react-icons/hi'
 
 export default function Example() {
   return (
@@ -7,7 +7,7 @@ export default function Example() {
         <div className="flex flex-wrap items-center justify-center">
           <div className="flex items-center">
             <span className="flex rounded-lg bg-blue-800 p-2">
-              <SpeakerphoneIcon
+              <HiOutlineSpeakerphone
                 className="h-6 w-6 text-white"
                 aria-hidden="true"
               />
@@ -15,8 +15,8 @@ export default function Example() {
             <p className="ml-3 truncate font-medium text-white">
               <span className="md:hidden">Building Dreams Today!</span>
               <span className="hidden md:inline">
-                Building Dreams Today by Democratizing access to quality
-                entrepreneurship
+                Building Dreams Today by creating an entrepreneurship,
+                learn-by-doing approach
               </span>
             </p>
           </div>

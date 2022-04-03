@@ -1,32 +1,32 @@
 function Stats() {
   const style = {
-    box: `py-4 px-5 rounded mt-5 md:px-20 bg-white shadow-md`,
-    boxHead: `text-2xl md:text-5xl font-bold text-blue-600`,
+    box: `py-4 px-5 rounded mt-5 lg:px-20 bg-white shadow-md`,
+    boxHead: `text-2xl md:text-4xl lg:text-5xl font-bold text-blue-600`,
     boxPara: `mt-4 text-gray-700`,
   }
   return (
     <div className="mx-auto mt-20 bg-[#F9FAFB] px-2 py-14 text-center">
       <div>
         <h1 className="text-3xl font-bold">
-          Trusted by developers from over 80 planets
+          Trusted by people from over 80 planets
         </h1>
         <p className="mt-3 text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-          voluptate aliquam repellat
+          We at wavemakers believe in creating, designing, and manage
+          entrepreneurship programs
         </p>
       </div>
       <div className="mt-5 flex items-center justify-center">
         <div className={style.box}>
-          <h1 className={style.boxHead}>100%</h1>
-          <p className={style.boxPara}>Pepperoni</p>
+          <h1 className={style.boxHead}>500+</h1>
+          <p className={style.boxPara}>Startups incubated</p>
         </div>
         <div className={style.box}>
-          <h1 className={style.boxHead}>24/7</h1>
-          <p className={style.boxPara}>Delivery</p>
+          <h1 className={style.boxHead}>$50M</h1>
+          <p className={style.boxPara}>Funds Raised</p>
         </div>
         <div className={style.box}>
-          <h1 className={style.boxHead}>100k</h1>
-          <p className={style.boxPara}>Calories</p>
+          <h1 className={style.boxHead}>250+</h1>
+          <p className={style.boxPara}>MSME Restructured</p>
         </div>
       </div>
     </div>

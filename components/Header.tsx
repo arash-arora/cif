@@ -2,20 +2,21 @@ import { Fragment } from 'react'
 import logo from '../assets/images/wavemakers1.png'
 import { Popover, Transition } from '@headlessui/react'
 import {
-  BookmarkAltIcon,
-  CalendarIcon,
-  ChartBarIcon,
-  CursorClickIcon,
-  MenuIcon,
-  PhoneIcon,
-  PlayIcon,
-  RefreshIcon,
-  ShieldCheckIcon,
-  SupportIcon,
-  ViewGridIcon,
-  XIcon,
-} from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
+  BsBookmark,
+  BsPlayCircle,
+  BsCalendarCheck,
+  BsCursor,
+} from 'react-icons/bs'
+import {
+  HiOutlineChartBar,
+  HiMenuAlt2,
+  HiOutlineRefresh,
+  HiOutlineViewGrid,
+} from 'react-icons/hi'
+import { FiPhone } from 'react-icons/fi'
+import { FaChevronDown } from 'react-icons/fa'
+import { BiCheckShield, BiSupport } from 'react-icons/bi'
+import { RiRemixiconLine } from 'react-icons/ri'
 import Image from 'next/image'
 
 const solutions = [
@@ -24,37 +25,37 @@ const solutions = [
     description:
       'Get a better understanding of where your traffic is coming from.',
     href: '#',
-    icon: ChartBarIcon,
+    icon: HiOutlineChartBar,
   },
   {
     name: 'Engagement',
     description: 'Speak directly to your customers in a more meaningful way.',
     href: '#',
-    icon: CursorClickIcon,
+    icon: BsCursor,
   },
   {
     name: 'Security',
     description: "Your customers' data will be safe and secure.",
     href: '#',
-    icon: ShieldCheckIcon,
+    icon: BiCheckShield,
   },
   {
     name: 'Integrations',
     description: "Connect with third-party tools that you're already using.",
     href: '#',
-    icon: ViewGridIcon,
+    icon: HiOutlineViewGrid,
   },
   {
     name: 'Automations',
     description:
       'Build strategic funnels that will drive your customers to convert',
     href: '#',
-    icon: RefreshIcon,
+    icon: HiOutlineRefresh,
   },
 ]
 const callsToAction = [
-  { name: 'Watch Demo', href: '#', icon: PlayIcon },
-  { name: 'Contact Sales', href: '#', icon: PhoneIcon },
+  { name: 'Watch Demo', href: '#', icon: BsPlayCircle },
+  { name: 'Contact Sales', href: '#', icon: FiPhone },
 ]
 const resources = [
   {
@@ -62,27 +63,27 @@ const resources = [
     description:
       'Get all of your questions answered in our forums or contact support.',
     href: '#',
-    icon: SupportIcon,
+    icon: BiSupport,
   },
   {
     name: 'Guides',
     description:
       'Learn how to maximize our platform to get the most out of it.',
     href: '#',
-    icon: BookmarkAltIcon,
+    icon: BsBookmark,
   },
   {
     name: 'Events',
     description:
       'See what meet-ups and other events we might be planning near you.',
     href: '#',
-    icon: CalendarIcon,
+    icon: BsCalendarCheck,
   },
   {
     name: 'Security',
     description: 'Understand how we take your privacy seriously.',
     href: '#',
-    icon: ShieldCheckIcon,
+    icon: BiCheckShield,
   },
 ]
 const recentPosts = [
@@ -105,8 +106,8 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-1 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
-              <span className="sr-only">Workflow</span>
+            <a href="/">
+              <span className="sr-only">Wavemakers</span>
               <Image
                 className="h-8 w-auto sm:h-10"
                 src={logo}
@@ -119,7 +120,7 @@ export default function Example() {
           <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#7BAEFB]">
               <span className="sr-only">Open menu</span>
-              <MenuIcon className="h-6 w-6" aria-hidden="true" />
+              <HiMenuAlt2 className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden space-x-10 md:flex">
@@ -133,7 +134,7 @@ export default function Example() {
                     )}
                   >
                     <span>Events</span>
-                    <ChevronDownIcon
+                    <FaChevronDown
                       className={classNames(
                         open ? 'text-gray-600' : 'text-gray-400',
                         'ml-2 h-5 w-5 group-hover:text-gray-500'
@@ -199,7 +200,7 @@ export default function Example() {
             </Popover>
 
             <a
-              href="#"
+              href="/about"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               About
@@ -221,7 +222,7 @@ export default function Example() {
                     )}
                   >
                     <span>More</span>
-                    <ChevronDownIcon
+                    <FaChevronDown
                       className={classNames(
                         open ? 'text-gray-600' : 'text-gray-400',
                         'ml-2 h-5 w-5 group-hover:text-gray-500'
@@ -345,7 +346,7 @@ export default function Example() {
                 <div className="-mr-2">
                   <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#7BAEFB]">
                     <span className="sr-only">Close menu</span>
-                    <XIcon className="h-6 w-6" aria-hidden="true" />
+                    <RiRemixiconLine className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
               </div>

@@ -4,12 +4,17 @@ import TimelineItem from '@mui/lab/TimelineItem'
 import TimelineSeparator from '@mui/lab/TimelineSeparator'
 import TimelineConnector from '@mui/lab/TimelineConnector'
 import TimelineContent from '@mui/lab/TimelineContent'
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent'
+// import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent'
 import TimelineDot from '@mui/lab/TimelineDot'
-import FastfoodIcon from '@mui/icons-material/Fastfood'
-import LaptopMacIcon from '@mui/icons-material/LaptopMac'
-import HotelIcon from '@mui/icons-material/Hotel'
-import RepeatIcon from '@mui/icons-material/Repeat'
+// import FastfoodIcon from '@mui/icons-material/Fastfood'
+// import LaptopMacIcon from '@mui/icons-material/LaptopMac'
+import { FiTrendingUp } from 'react-icons/fi'
+// import HotelIcon from '@mui/icons-material/Hotel'
+import { MdSpeed } from 'react-icons/md'
+import { AiOutlineBulb } from 'react-icons/ai'
+import { VscSymbolStructure } from 'react-icons/vsc'
+import { HiOutlineOfficeBuilding } from 'react-icons/hi'
+// import RepeatIcon from '@mui/icons-material/Repeat'
 import Typography from '@mui/material/Typography'
 
 export default function CustomizedTimeline() {
@@ -19,78 +24,107 @@ export default function CustomizedTimeline() {
         <h1 className="text-5xl font-bold ">How we'll help</h1>
         <Timeline position="alternate" className="mt-20">
           <TimelineItem>
-            <TimelineOppositeContent
+            {/* <TimelineOppositeContent
               sx={{ m: 'auto 0' }}
               align="right"
               variant="body2"
               color="text.secondary"
             >
               9:30 am
-            </TimelineOppositeContent>
+            </TimelineOppositeContent> */}
             <TimelineSeparator>
               <TimelineConnector />
               <TimelineDot>
-                <FastfoodIcon />
+                <AiOutlineBulb className="h-6 w-6" />
               </TimelineDot>
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
               <Typography variant="h6" component="span">
-                Eat
+                Idea Stage
               </Typography>
-              <Typography>Because you need strength</Typography>
+              <Typography>
+                Finally turn your ideas into a real business using a proven
+                step-by-step process, with constant feedback from experts for
+                years to come.
+              </Typography>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent
+            {/* <TimelineOppositeContent
               sx={{ m: 'auto 0' }}
               variant="body2"
               color="text.secondary"
             >
               10:00 am
-            </TimelineOppositeContent>
+            </TimelineOppositeContent> */}
             <TimelineSeparator>
               <TimelineConnector />
               <TimelineDot color="primary">
-                <LaptopMacIcon />
+                <VscSymbolStructure className="h-6 w-6" />
               </TimelineDot>
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
               <Typography variant="h6" component="span">
-                Code
+                MVP Stage
               </Typography>
-              <Typography>Because it&apos;s awesome!</Typography>
+              <Typography>
+                Pivot or persevere quickly using a structured analytical
+                approach, with personalized guidance and advice from seasoned
+                entrepreneurs.
+              </Typography>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
             <TimelineSeparator>
               <TimelineConnector />
               <TimelineDot color="primary" variant="outlined">
-                <HotelIcon />
+                <HiOutlineOfficeBuilding className="h-6 w-6" />
               </TimelineDot>
-              <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+              <TimelineConnector sx={{ bgcolor: 'secondary.primary' }} />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
               <Typography variant="h6" component="span">
-                Sleep
+                Early Company Stage
               </Typography>
-              <Typography>Because you need rest</Typography>
+              <Typography>
+                Build a global, funded business with the world's largest network
+                of CEOs, advisors, and investors
+              </Typography>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
             <TimelineSeparator>
-              <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+              <TimelineConnector sx={{ bgcolor: 'secondary.primary' }} />
               <TimelineDot color="secondary">
-                <RepeatIcon />
+                <MdSpeed className="h-6 w-6" />
               </TimelineDot>
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
               <Typography variant="h6" component="span">
-                Repeat
+                Business Acceleration
               </Typography>
-              <Typography>Because this is the life you love!</Typography>
+              <Typography>We help in the scaling the business!</Typography>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineConnector sx={{ bgcolor: 'secondary.primary' }} />
+              <TimelineDot color="primary" variant="outlined">
+                <FiTrendingUp className="h-6 w-6" />
+              </TimelineDot>
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent sx={{ py: '12px', px: 2 }}>
+              <Typography variant="h6" component="span">
+                Business & Product Evolution
+              </Typography>
+              <Typography>
+                Evolving the business & products to build a long-term
+                sustainable business.
+              </Typography>
             </TimelineContent>
           </TimelineItem>
         </Timeline>

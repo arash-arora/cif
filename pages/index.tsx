@@ -7,6 +7,7 @@ import Stats from '../components/Stats'
 import Roadmap from '../components/Roadmap'
 import Features from '../components/Features'
 import Clients from '../components/Clients'
+import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
       <Features />
       <Roadmap />
       <Clients />
+      <Footer />
     </div>
   )
 }
