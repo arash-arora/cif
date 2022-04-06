@@ -17,36 +17,37 @@ import { FiPhone } from 'react-icons/fi'
 import { FaChevronDown } from 'react-icons/fa'
 import { BiCheckShield, BiSupport } from 'react-icons/bi'
 import { RiRemixiconLine } from 'react-icons/ri'
+import { AiOutlineClose } from 'react-icons/ai'
 import Image from 'next/image'
 
 const solutions = [
   {
-    name: 'Analytics',
+    name: 'About',
     description:
       'Get a better understanding of where your traffic is coming from.',
     href: '#',
     icon: HiOutlineChartBar,
   },
   {
-    name: 'Engagement',
+    name: 'Events',
     description: 'Speak directly to your customers in a more meaningful way.',
     href: '#',
     icon: BsCursor,
   },
   {
-    name: 'Security',
+    name: 'Courses',
     description: "Your customers' data will be safe and secure.",
     href: '#',
     icon: BiCheckShield,
   },
   {
-    name: 'Integrations',
+    name: 'Blogs',
     description: "Connect with third-party tools that you're already using.",
     href: '#',
     icon: HiOutlineViewGrid,
   },
   {
-    name: 'Automations',
+    name: 'Contact',
     description:
       'Build strategic funnels that will drive your customers to convert',
     href: '#',
@@ -337,16 +338,18 @@ export default function Example() {
             <div className="px-5 pt-5 pb-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <img
+                  <Image
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                    alt="Workflow"
+                    src={logo}
+                    alt="Wavemakers"
+                    height={32}
+                    width={140}
                   />
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#7BAEFB]">
                     <span className="sr-only">Close menu</span>
-                    <RiRemixiconLine className="h-6 w-6" aria-hidden="true" />
+                    <AiOutlineClose className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
               </div>
@@ -398,7 +401,7 @@ export default function Example() {
               <div>
                 <a
                   href="#"
-                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
                 >
                   Sign up
                 </a>
