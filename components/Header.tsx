@@ -312,7 +312,7 @@ export default function Example() {
               Sign in
             </a> */}
             <a
-              href="#"
+              href="/contact"
               className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-blue-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-blue-700"
             >
               Contact
