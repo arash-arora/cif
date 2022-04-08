@@ -40,7 +40,7 @@ function Contact() {
       <hr className="mt-10" />
       <div className="mt-20 flex flex-col items-center justify-between md:flex-row">
         <div>
-          <h1 className="mb-10 whitespace-nowrap text-4xl md:mb-0">
+          <h1 className="mb-10 whitespace-nowrap pr-12 text-4xl md:mb-0">
             Locations
           </h1>
         </div>

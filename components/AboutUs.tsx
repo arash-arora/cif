@@ -13,34 +13,40 @@ function AboutUs() {
         </div>
         <div className="mt-5 font-serif text-[#969696]">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-            officia exercitationem nemo corrupti obcaecati animi vel vitae
-            dolorum, nobis asperiores unde quaerat explicabo hic aspernatur
-            excepturi cupiditate quibusdam qui quam, natus voluptates!
-            Perspiciatis necessitatibus quos possimus provident maiores
-            dignissimos eaque beatae vel aliquid reprehenderit magni illo facere
-            ipsa quod nam repellat qui vero tempora, consequuntur at cum!
-            Maiores eum quaerat repudiandae iusto ducimus. Sit atque doloribus
-            nostrum veniam provident error excepturi sed hic velit. Est
-            accusamus voluptatum cupiditate perspiciatis iste.
+            We work with founders, ideators, and business owners to bring
+            Innovation & Differentiator to their respective businesses and
+            products. We also provide smart incubation services to germinate the
+            idea to business right from grass root level. Our strength lies in
+            bringing together a team of highly qualified, skilled, and motivated
+            professionals who are encouraged to lead, innovate and excel. With
+            our multidisciplinary expertise accentuated by our honored board of
+            advisors, across various industry segments, we have brought clarity
+            to difficult and complex business situations and provided scalable
+            business propositions with skin in the game.
           </p>
           <p className="mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fuga
-            quia incidunt voluptates dignissimos voluptatibus dolorum corrupti
-            animi nulla odio, exercitationem ipsum porro similique totam.
-            Impedit placeat itaque corrupti dignissimos vero nobis adipisci
-            soluta reiciendis, dolorum animi. Nostrum odio voluptatum expedita,
-            possimus excepturi adipisci ad voluptas sed, fuga quo fugiat saepe
-            debitis iste corporis aliquid dolorem suscipit, autem voluptates a
-            ea dolores? Error nemo inventore labore magni quibusdam accusamus
-            omnis alias aliquam fugiat odio doloremque enim, amet voluptatem
-            autem iure.
+            We have been recognized as preferred partners with many leading
+            Institutions and Consulting firms wherein we bring our expertise and
+            collaborate astute execution across GLOBALLY. Promoters of
+            WAVEMAKERS are active members of many Government and Private
+            initiatives & platforms like Startup India Initiative, MeitY, ATL,
+            and many other national and international forums.
             <ul className="mt-4 ml-4 list-disc">
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
+              <h1 className="mb-2 text-2xl font-bold">How Wavemakers help</h1>
+              <li>
+                To choose the program that best fits your needs as a founder
+              </li>
+              <li>Find your product-market fit</li>
+              <li>Build a business that’s financially viable</li>
+              <li>Get another pair of eyes on your project</li>
+              <li>
+                Expand your network Develop new abilities and soft skills as an
+                entrepreneur
+              </li>
+              <li>
+                Prepare your pitch to potential investors and partners Develop
+                your Executive Summary as you build your business
+              </li>
             </ul>
           </p>
         </div>
