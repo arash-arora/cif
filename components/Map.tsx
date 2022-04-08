@@ -19,10 +19,10 @@ function Map() {
   const center = getCenter(coordinates)
 
   const [viewport, setViewport] = useState({
-    latitude: center.latitude,
-    longitude: center.longitude,
-    height: '100vh',
-    width: '100vw',
+    latitude: 28.566505732421057,
+    longitude: 77.10024042783789,
+    // height: '100vh',
+    // width: '100vw',
     zoom: 11,
   })
   return (
