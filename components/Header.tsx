@@ -25,7 +25,7 @@ const solutions = [
     name: 'About',
     description:
       'Get a better understanding of where your traffic is coming from.',
-    href: '#',
+    href: '/about',
     icon: HiOutlineChartBar,
   },
   {
@@ -37,7 +37,7 @@ const solutions = [
   {
     name: 'Courses',
     description: "Your customers' data will be safe and secure.",
-    href: '#',
+    href: 'https://manojarora0227.ongraphy.com/',
     icon: BiCheckShield,
   },
   {
@@ -125,7 +125,7 @@ export default function Example() {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden space-x-10 md:flex">
-            <Popover className="relative">
+            {/* <Popover className="relative">
               {({ open }) => (
                 <>
                   <Popover.Button
@@ -198,8 +198,14 @@ export default function Example() {
                   </Transition>
                 </>
               )}
-            </Popover>
+            </Popover> */}
 
+            <a
+              href="/services"
+              className="text-base font-medium text-gray-500 hover:text-gray-900"
+            >
+              Services
+            </a>
             <a
               href="/about"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
@@ -207,7 +213,7 @@ export default function Example() {
               About
             </a>
             <a
-              href="#"
+              href="https://manojarora0227.ongraphy.com/"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Courses
