@@ -201,19 +201,25 @@ export default function Example() {
             </Popover> */}
 
             <a
-              href="/services"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Services
-            </a>
-            <a
               href="/about"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               About
             </a>
             <a
-              href="https://manojarora0227.ongraphy.com/"
+              href="/services"
+              className="text-base font-medium text-gray-500 hover:text-gray-900"
+            >
+              Our Offerings
+            </a>
+            <a
+              href="/media"
+              className="text-base font-medium text-gray-500 hover:text-gray-900"
+            >
+              Media
+            </a>
+            <a
+              href="https://manojarora0227.ongraphy.com/s/store"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Courses
@@ -222,7 +228,7 @@ export default function Example() {
             <Popover className="relative">
               {({ open }) => (
                 <>
-                  <Popover.Button
+                  {/* <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
                       'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#7BAEFB] focus:ring-offset-2'
@@ -236,7 +242,7 @@ export default function Example() {
                       )}
                       aria-hidden="true"
                     />
-                  </Popover.Button>
+                  </Popover.Button> */}
 
                   <Transition
                     as={Fragment}
