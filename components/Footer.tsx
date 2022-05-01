@@ -21,26 +21,7 @@ function Footer() {
           </p>
         </div>
         <div className="-mb-10 mt-10 flex flex-grow flex-wrap text-center md:mt-0 md:pl-20 md:text-left">
-          <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-            <h2 className="title-font mb-3 text-sm font-medium tracking-widest text-gray-900">
-              Solution
-            </h2>
-            <nav className="mb-10 list-none">
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Courses</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Development</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Analytics</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Valuation</a>
-              </li>
-            </nav>
-          </div>
-          <div className="w-full px-4 md:w-1/2 lg:w-1/4">
+          <div className="w-full px-4 md:w-1/2 lg:w-1/3 ">
             <h2 className="title-font mb-3 text-sm font-medium tracking-widest text-gray-900">
               Support
             </h2>
@@ -61,7 +42,7 @@ function Footer() {
               </li>
             </nav>
           </div>
-          <div className="w-full px-4 md:w-1/2 lg:w-1/4">
+          <div className="w-full px-4 md:w-1/2 lg:w-1/3 ">
             <h2 className="title-font mb-3 text-sm font-medium tracking-widest text-gray-900">
               Company
             </h2>
@@ -70,17 +51,19 @@ function Footer() {
                 <a className="text-gray-600 hover:text-gray-800">About</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Partners</a>
+                <a className="text-gray-600 hover:text-gray-800">Courses</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Jobs</a>
+                <a className="text-gray-600 hover:text-gray-800">
+                  Our Offerings
+                </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Blogs</a>
+                <a className="text-gray-600 hover:text-gray-800">Media</a>
               </li>
             </nav>
           </div>
-          <div className="w-full px-4 md:w-1/2 lg:w-1/4">
+          <div className="w-full px-4 md:w-1/2 lg:w-1/3 ">
             <h2 className="title-font mb-3 text-sm font-medium tracking-widest text-gray-900">
               Legal
             </h2>

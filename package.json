@@ -12,17 +12,22 @@
     "@mui/icons-material": "^5.5.1",
     "@mui/lab": "^5.0.0-alpha.75",
     "@mui/material": "^5.5.3",
+    "acorn": "^8.7.1",
+    "cssesc": "^3.0.0",
     "geolib": "^3.3.3",
     "mapbox-gl": "^2.7.1",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-    "react-map-gl": "^7.0.10"
+    "react-map-gl": "^7.0.10",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
+    "@types/react-slick": "^0.23.8",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.5",
     "prettier": "^2.5.1",

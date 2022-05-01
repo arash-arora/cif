@@ -3,7 +3,16 @@ module.exports = {
   reactStrictMode: true,
 
   images: {
-    domains: ['cdn-icons-png.flaticon.com', 'images.unsplash.com'],
+    domains: [
+      'cdn-icons-png.flaticon.com',
+      'www.iconexgulf.com',
+      'www.santosh.ac.in',
+      'www.icmr.gov.in',
+      'crestinnovations.com',
+      'images.unsplash.com',
+      'crestcapitaladvisors.in',
+      'srisiim.ac.in',
+    ],
   },
   env: {
     mapbox_key:
