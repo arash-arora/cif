@@ -1,25 +1,14 @@
 import { Fragment } from 'react'
 import logo from '../assets/images/wavemakers1.png'
 import { Popover, Transition } from '@headlessui/react'
-import {
-  BsBookmark,
-  BsPlayCircle,
-  BsCalendarCheck,
-  BsCursor,
-} from 'react-icons/bs'
-
+import { FcBusinessman } from 'react-icons/fc'
 import Link from 'next/link'
-import {
-  HiOutlineChartBar,
-  HiMenuAlt2,
-  HiOutlineRefresh,
-  HiOutlineViewGrid,
-} from 'react-icons/hi'
-import { FiPhone } from 'react-icons/fi'
-import { FaChevronDown } from 'react-icons/fa'
-import { BiCheckShield, BiSupport } from 'react-icons/bi'
-import { RiRemixiconLine } from 'react-icons/ri'
+import { HiMenuAlt2 } from 'react-icons/hi'
+import { ImBooks } from 'react-icons/im'
+import { FaChevronDown, FaUniversity } from 'react-icons/fa'
 import { AiOutlineClose } from 'react-icons/ai'
+import { MdBusinessCenter, MdOutlineContactSupport } from 'react-icons/md'
+import { BsTelephone } from 'react-icons/bs'
 import Image from 'next/image'
 
 const solutions = [
@@ -28,75 +17,57 @@ const solutions = [
     description:
       'Get a better understanding of where your traffic is coming from.',
     href: '/about',
-    icon: HiOutlineChartBar,
-  },
-  {
-    name: 'Events',
-    description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
-    icon: BsCursor,
+    icon: MdOutlineContactSupport,
   },
   {
     name: 'Courses',
     description: "Your customers' data will be safe and secure.",
     href: 'https://manojarora0227.ongraphy.com/',
-    icon: BiCheckShield,
-  },
-  {
-    name: 'Blogs',
-    description: "Connect with third-party tools that you're already using.",
-    href: '#',
-    icon: HiOutlineViewGrid,
+    icon: ImBooks,
   },
   {
     name: 'Contact',
     description:
       'Build strategic funnels that will drive your customers to convert',
-    href: '#',
-    icon: HiOutlineRefresh,
+    href: '/contact',
+    icon: BsTelephone,
   },
 ]
-const callsToAction = [
-  { name: 'Watch Demo', href: '#', icon: BsPlayCircle },
-  { name: 'Contact Sales', href: '#', icon: FiPhone },
-]
+// const callsToAction = [
+//   { name: 'Watch Demo', href: '#', icon: BsPlayCircle },
+//   { name: 'Contact Sales', href: '#', icon: FiPhone },
+// ]
 const resources = [
   {
-    name: 'Help Center',
+    name: 'As a Startup',
     description:
       'Get all of your questions answered in our forums or contact support.',
-    href: '#',
-    icon: BiSupport,
+    href: '/register-as-a-startup',
+    icon: MdBusinessCenter,
   },
   {
-    name: 'Guides',
+    name: 'As a Student',
     description:
       'Learn how to maximize our platform to get the most out of it.',
-    href: '#',
-    icon: BsBookmark,
+    href: 'https://manojarora0227.ongraphy.com/s/store',
+    icon: FaUniversity,
   },
   {
-    name: 'Events',
+    name: 'As an Enterpreuner',
     description:
       'See what meet-ups and other events we might be planning near you.',
-    href: '#',
-    icon: BsCalendarCheck,
-  },
-  {
-    name: 'Security',
-    description: 'Understand how we take your privacy seriously.',
-    href: '#',
-    icon: BiCheckShield,
+    href: '/register-as-an-enterpreuner',
+    icon: FcBusinessman,
   },
 ]
 const recentPosts = [
-  { id: 1, name: 'Boost your conversion rate', href: '#' },
-  {
-    id: 2,
-    name: 'How to use search engine optimization to drive traffic to your site',
-    href: '#',
-  },
-  { id: 3, name: 'Improve your customer experience', href: '#' },
+  // { id: 1, name: 'Boost your conversion rate', href: '#' },
+  // {
+  //   id: 2,
+  //   name: 'How to use search engine optimization to drive traffic to your site',
+  //   href: '#',
+  // },
+  // { id: 3, name: 'Improve your customer experience', href: '#' },
 ]
 
 function classNames(...classes: string[]) {
@@ -138,12 +109,12 @@ export default function Example() {
                 Our Offerings
               </a>
             </Link>
-            <a
+            {/* <a
               href="/media"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Media
-            </a>
+            </a> */}
             <a
               href="https://manojarora0227.ongraphy.com/s/store"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
@@ -154,13 +125,13 @@ export default function Example() {
             <Popover className="relative">
               {({ open }) => (
                 <>
-                  {/* <Popover.Button
+                  <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
                       'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#7BAEFB] focus:ring-offset-2'
                     )}
                   >
-                    <span>More</span>
+                    <span>Register</span>
                     <FaChevronDown
                       className={classNames(
                         open ? 'text-gray-600' : 'text-gray-400',
@@ -168,7 +139,7 @@ export default function Example() {
                       )}
                       aria-hidden="true"
                     />
-                  </Popover.Button> */}
+                  </Popover.Button>
 
                   <Transition
                     as={Fragment}
@@ -203,7 +174,7 @@ export default function Example() {
                             </a>
                           ))}
                         </div>
-                        <div className="bg-gray-50 px-5 py-5 sm:px-8 sm:py-8">
+                        {/* <div className="bg-gray-50 px-5 py-5 sm:px-8 sm:py-8">
                           <div>
                             <h3 className="text-sm font-medium uppercase tracking-wide text-gray-500">
                               Recent Posts
@@ -234,7 +205,7 @@ export default function Example() {
                               <span aria-hidden="true">&rarr;</span>
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </Popover.Panel>
                   </Transition>
@@ -311,21 +282,15 @@ export default function Example() {
                 </nav>
               </div>
             </div>
-            <div className="space-y-6 py-6 px-5">
+            <div className="space-y-6 py-6 px-5 ">
+              <h1 className="text-xl font-semibold text-blue-600">Register</h1>
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                <a
+                {/* <a
                   href="#"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Pricing
-                </a>
-
-                <a
-                  href="#"
-                  className="text-base font-medium text-gray-900 hover:text-gray-700"
-                >
-                  Docs
-                </a>
+                </a> */}
                 {resources.map((item) => (
                   <a
                     key={item.name}
@@ -336,7 +301,7 @@ export default function Example() {
                   </a>
                 ))}
               </div>
-              <div>
+              {/* <div>
                 <a
                   href="#"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
@@ -349,7 +314,7 @@ export default function Example() {
                     Sign in
                   </a>
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </Popover.Panel>
