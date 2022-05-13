@@ -9,6 +9,7 @@ import Features from '../components/Features'
 import Clients from '../components/Clients'
 // import CL from '../components/Clients1'
 import Footer from '../components/Footer'
+import Committee from '../components/Committee'
 import Startups from '../components/Startups'
 
 const Home: NextPage = () => {
@@ -26,6 +27,9 @@ const Home: NextPage = () => {
       <Roadmap />
       <Clients />
       <Startups />
+      <div className="mx-16">
+        <Committee />
+      </div>
       <Footer />
     </div>
   )

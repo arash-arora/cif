@@ -21,7 +21,7 @@ export default function CustomizedTimeline() {
   return (
     <>
       <div className="mt-20 flex flex-col items-center justify-center bg-[#F9FAFB] py-20">
-        <h1 className="text-5xl font-bold ">How we'll help</h1>
+        <h1 className="text-4xl font-bold ">How we'll help</h1>
         <Timeline position="alternate" className="mt-20">
           <TimelineItem>
             {/* <TimelineOppositeContent

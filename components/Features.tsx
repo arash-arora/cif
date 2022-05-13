@@ -50,7 +50,7 @@ export default function Example() {
           <h2 className="text-base font-semibold uppercase tracking-wide text-indigo-600">
             Features
           </h2>
-          <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-4xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
             How We Help Businesses
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">

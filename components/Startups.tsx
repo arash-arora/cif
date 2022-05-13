@@ -41,7 +41,7 @@ function Startups() {
     ],
   }
   return (
-    <div className="mx-auto mt-16 text-center">
+    <div className="mx-auto mt-20 bg-[#F9FAFB] px-2 py-14 text-center">
       <h1
         style={{ textShadow: '2px 2px 6px' }}
         className="text-7xl text-gray-200 md:text-9xl"

@@ -9,7 +9,7 @@ function AboutUs() {
     <div className="mx-auto mt-20 flex max-w-6xl flex-wrap justify-center gap-8 md:flex-nowrap">
       <div className="max-w-lg text-justify">
         <div>
-          <h1 className=" text-5xl font-bold">about</h1>
+          <h1 className="text-5xl font-bold">about</h1>
         </div>
         <div className="mt-5 font-serif text-[#969696]">
           <p>

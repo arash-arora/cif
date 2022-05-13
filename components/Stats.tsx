@@ -7,7 +7,7 @@ function Stats() {
   return (
     <div className="mx-auto mt-20 bg-[#F9FAFB] px-2 py-14 text-center">
       <div>
-        <h1 className="text-3xl font-bold">
+        <h1 className="text-4xl font-bold">
           Trusted by people from over 80 planets
         </h1>
         <p className="mt-3 text-gray-500">
