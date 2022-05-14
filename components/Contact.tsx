@@ -1,10 +1,10 @@
-import ContactForm from './Form'
+// import ContactForm from './Form'
 import Map from './Map'
 
 function Contact() {
   return (
     <div className="mx-24">
-      <ContactForm />
+      {/* <ContactForm /> */}
       <hr className="mt-20" />
       <div className="mt-20 flex flex-col items-center justify-between text-center md:flex-row md:text-left">
         <div>
