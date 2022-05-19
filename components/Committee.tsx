@@ -18,7 +18,7 @@ chooseRandom(member, 6)
 export default function committee() {
   return (
     <div className="mx-auto mt-20 max-w-7xl py-14 px-4 sm:px-6 lg:px-8">
-      <div className="flex gap-20">
+      <div className="flex flex-col gap-20 md:flex-row">
         <div className="max-w-lg">
           <h1 className="mb-8 text-4xl font-bold">Meet The Leadership</h1>
           <p className="text-md text-gray-500">
