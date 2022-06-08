@@ -27,9 +27,9 @@ const Home: NextPage = () => {
       <Roadmap />
       <Clients />
       <Startups />
-      <div className="mx-16">
+      {/* <div className="mx-16">
         <Committee />
-      </div>
+      </div> */}
       <Footer />
     </div>
   )
