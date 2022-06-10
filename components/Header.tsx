@@ -22,7 +22,7 @@ const solutions = [
   {
     name: 'Courses',
     description: "Your customers' data will be safe and secure.",
-    href: 'https://manojarora0227.ongraphy.com/',
+    href: 'https://wavemakersventures7385.ongraphy.com/s/store',
     icon: ImBooks,
   },
   {
