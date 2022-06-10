@@ -8,7 +8,7 @@ export default function main_com() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Necessitatibus sit quod voluptate laboriosam quasi tempora cupiditate
           sunt placeat amet minima recusandae ab quos atque velit quisquam,
-          consequatur temporibus, ex totam quidem. Unde, minus perferendis.
+          consequatur temporibus.
         </p>
       </div>
 
