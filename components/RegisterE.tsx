@@ -2,26 +2,26 @@ import React from 'react'
 import emailjs from '@emailjs/browser'
 
 function Register() {
-  function sendEmail(e) {
-    e.preventDefault()
+  // function sendEmail(e) {
+  //   e.preventDefault()
 
-    emailjs
-      .sendForm(
-        'service_pb1vr97',
-        'template_utl13y6',
-        e.target,
-        'JVIV5y6AeUML9LUno'
-      )
-      .then(
-        (result) => {
-          console.log(result.text)
-        },
-        (error) => {
-          console.log(error.text)
-        }
-      )
-    e.target.reset()
-  }
+  //   emailjs
+  //     .sendForm(
+  //       'service_pb1vr97',
+  //       'template_utl13y6',
+  //       e.target,
+  //       'JVIV5y6AeUML9LUno'
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text)
+  //       },
+  //       (error) => {
+  //         console.log(error.text)
+  //       }
+  //     )
+  //   e.target.reset()
+  // }
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="mt-10">
@@ -30,7 +30,8 @@ function Register() {
         </h1>
       </div>
       <div className="mt-12">
-        <form onSubmit={sendEmail}>
+        {/* onSubmit={sendEmail} */}
+        <form>
           <div className="overflow-hidden shadow sm:rounded-md">
             <div className="bg-white px-4 py-5 sm:p-6">
               <div className="grid grid-cols-6 gap-6">
