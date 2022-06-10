@@ -54,7 +54,7 @@ const resources = [
     icon: FaUniversity,
   },
   {
-    name: 'As an Enterpreuner',
+    name: 'As an Entrepreneur',
     description:
       'See what meet-ups and other events we might be planning near you.',
     href: 'https://forms.gle/trDfoGbG5FS6sbuo6',
