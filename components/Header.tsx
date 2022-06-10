@@ -48,7 +48,7 @@ const resources = [
   {
     name: 'As a Student',
     description: 'Register as yourself as a student.',
-    href: 'https://manojarora0227.ongraphy.com/s/store',
+    href: 'https://wavemakersventures7385.ongraphy.com/s/store',
     icon: FaUniversity,
   },
   {
