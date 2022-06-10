@@ -40,23 +40,20 @@ const solutions = [
 const resources = [
   {
     name: 'As a Startup',
-    description:
-      'Get all of your questions answered in our forums or contact support.',
+    description: 'Register as yourself as a startup.',
     href: 'https://forms.gle/7ggZijFbdWcpgMrU8',
     // href: '/register-as-a-startup',
     icon: MdBusinessCenter,
   },
   {
     name: 'As a Student',
-    description:
-      'Learn how to maximize our platform to get the most out of it.',
+    description: 'Register as yourself as a student.',
     href: 'https://manojarora0227.ongraphy.com/s/store',
     icon: FaUniversity,
   },
   {
     name: 'As an Entrepreneur',
-    description:
-      'See what meet-ups and other events we might be planning near you.',
+    description: 'Register as yourself as an entrepreneur.',
     href: 'https://forms.gle/trDfoGbG5FS6sbuo6',
     icon: FcBusinessman,
   },
