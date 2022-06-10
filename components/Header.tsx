@@ -42,7 +42,8 @@ const resources = [
     name: 'As a Startup',
     description:
       'Get all of your questions answered in our forums or contact support.',
-    href: '/register-as-a-startup',
+    href: 'https://forms.gle/7ggZijFbdWcpgMrU8',
+    // href: '/register-as-a-startup',
     icon: MdBusinessCenter,
   },
   {
@@ -56,7 +57,7 @@ const resources = [
     name: 'As an Enterpreuner',
     description:
       'See what meet-ups and other events we might be planning near you.',
-    href: '/register-as-an-enterpreuner',
+    href: 'https://forms.gle/trDfoGbG5FS6sbuo6',
     icon: FcBusinessman,
   },
 ]
