@@ -39,7 +39,7 @@ const solutions = [
 // ]
 const resources = [
   {
-    name: 'As a Startup',
+    name: 'Your Startup Idea',
     description: 'Register as yourself as a startup.',
     href: 'https://forms.gle/7ggZijFbdWcpgMrU8',
     // href: '/register-as-a-startup',
