@@ -45,12 +45,12 @@ const resources = [
     // href: '/register-as-a-startup',
     icon: MdBusinessCenter,
   },
-  {
-    name: 'As a Student',
-    description: 'Register as yourself as a student.',
-    href: 'https://wavemakersventures7385.ongraphy.com/s/store',
-    icon: FaUniversity,
-  },
+  // {
+  //   name: 'As a Student',
+  //   description: 'Register as yourself as a student.',
+  //   href: 'https://wavemakersventures7385.ongraphy.com/s/store',
+  //   icon: FaUniversity,
+  // },
   {
     name: 'As an Entrepreneur',
     description: 'Register as yourself as an entrepreneur.',

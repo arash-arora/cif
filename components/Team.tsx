@@ -5,6 +5,7 @@ import { AiFillCaretRight } from 'react-icons/ai'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { Fragment } from 'react'
 import Image from 'next/image'
+import rb from '../assets/images/rb2.jpg'
 
 function Team() {
   const team = [
@@ -25,7 +26,8 @@ function Team() {
         'For the last 20 years, he has been involved in analyzing, scaling & building sustainable businesses operating in a constantly evolving ecosystem. He has assumed very diverse roles, from being corporate treasurer, managing funds for family offices & corporate treasury, to serving CXO roles for growing corporates recently.',
     },
     {
-      link: 'https://drive.google.com/uc?export=view&id=1VxIPzDNjZGRhlqXEq9XNbc2HrIxXlN6X',
+      // link: 'https://drive.google.com/uc?export=view&id=1VxIPzDNjZGRhlqXEq9XNbc2HrIxXlN6X',
+      link: 'https://drive.google.com/uc?export=view&id=1aUb4-vA2RCAiH-SOG39jhMdk9e1CNPGJ',
       name: 'Mr. Rajeev Bansal',
       urlLinkedIn: 'https://in.linkedin.com/in/arash-arora',
       profession: 'Business Advisor',
@@ -33,7 +35,7 @@ function Team() {
         'Mr. Rajeev Bansal has 26 years of experience in operating high-level business delegations and events globally. He’s having long work experience with the Confederation of India Industry CII and Reed Exhibitions Private. Ltd. (RX) which gives him an extra edge to deal with people in Government and Corporate simultaneously for smooth operations and great results.',
     },
     {
-      link: 'https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80',
+      link: 'https://drive.google.com/uc?export=view&id=1_-UZHsasxVId04vSHvBmyJ36jUDlOuBG',
       name: 'Mr. Abhimanyu Singh ',
       urlLinkedIn: 'https://in.linkedin.com/in/arash-arora',
       profession: 'Business Advisor',
