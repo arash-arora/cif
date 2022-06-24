@@ -56,7 +56,7 @@ function Team() {
           {team.map((member) => {
             return (
               <div className="mb-24 h-80" id={member.name}>
-                <div className="group relative w-[200px] md:w-[280px]">
+                <div className="group relative w-[200px] md:w-[250px]">
                   <img src={member.link} alt="" className="h-80 w-full" />
                   <Link href={member.urlLinkedIn}>
                     <div className="absolute left-0 bottom-0 inline-flex cursor-pointer items-center rounded-md bg-white p-2 px-3 py-2 text-base font-medium text-white opacity-80 hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 group-hover:bg-blue-700 group-hover:opacity-100">
