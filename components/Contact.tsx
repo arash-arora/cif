@@ -15,24 +15,24 @@ function Contact() {
         <div className="flex flex-row flex-wrap gap-10 md:flex-col">
           <div>
             <h3 className="text-xl font-semibold">Collaborate</h3>
-            <p className="text-[#999]">support@wavemakers.in</p>
+            <p className="text-[#999]">connect@wavemakers.in</p>
             <p className="text-[#999]">+91 8766212312</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold">Join Our Team</h3>
-            <p className="text-[#999]">support@wavemakers.in</p>
+            <p className="text-[#999]">connect@wavemakers.in</p>
             <p className="text-[#999]">+91 8766212312</p>
           </div>
         </div>
         <div className="mt-10 flex flex-row flex-wrap gap-10 md:mt-0 md:flex-col">
           <div>
             <h3 className="text-xl font-semibold">Press</h3>
-            <p className="text-[#999]">support@wavemakers.in</p>
+            <p className="text-[#999]">connect@wavemakers.in</p>
             <p className="text-[#999]">+91 8766212312</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold">Say Hello</h3>
-            <p className="text-[#999]">support@wavemakers.in</p>
+            <p className="text-[#999]">connect@wavemakers.in</p>
             <p className="text-[#999]">+91 8766212312</p>
           </div>
         </div>
@@ -47,25 +47,25 @@ function Contact() {
         <div className="flex flex-row flex-wrap gap-10 md:flex-col">
           <div>
             <h3 className="text-xl font-semibold">East of Kailash</h3>
-            <p className="text-[#999]">support@wavemakers.in</p>
-            <p className="text-[#999]">+91 8766212312</p>
+            <p className="text-[#999]">connect@wavemakers.in</p>
+            <p className="text-[#999]">+91 7291907708</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold">Bahrain</h3>
-            <p className="text-[#999]">support@wavemakers.in</p>
-            <p className="text-[#999]">+91 8766212312</p>
+            <p className="text-[#999]">connect@wavemakers.in</p>
+            <p className="text-[#999]">+91 7291907708</p>
           </div>
         </div>
         <div className="flex flex-row flex-wrap gap-10 sm:mt-10 md:mt-0 md:flex-col">
           <div>
             <h3 className="text-xl font-semibold">Bhikaji</h3>
-            <p className="text-[#999]">support@wavemakers.in</p>
-            <p className="text-[#999]">+91 8766212312</p>
+            <p className="text-[#999]">connect@wavemakers.in</p>
+            <p className="text-[#999]">+91 9899211121</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold">Mumbai</h3>
-            <p className="text-[#999]">support@wavemakers.in</p>
-            <p className="text-[#999]">+91 8766212312</p>
+            <p className="text-[#999]">connect@wavemakers.in</p>
+            <p className="text-[#999]">+91 8377057122</p>
           </div>
         </div>
       </div>

@@ -71,13 +71,13 @@ function Clients() {
               width={260}
             />
           </div>
-          <div className="m-3">
+          {/* <div className="m-3">
             <Image
               src="https://srisiim.ac.in/assets/img/logo/logo-home11.png"
               height={100}
               width={140}
             />
-          </div>
+          </div> */}
           <div className="m-3">
             <Image
               src="https://www.santosh.ac.in/assets/img/logo%20(6).png"

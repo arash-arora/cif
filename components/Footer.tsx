@@ -35,9 +35,9 @@ function Footer() {
                   Documentation
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a className="text-gray-600 hover:text-gray-800">Guides</a>
-              </li>
+              </li> */}
               <li>
                 <a className="text-gray-600 hover:text-gray-800">Contact</a>
               </li>
@@ -49,13 +49,20 @@ function Footer() {
             </h2>
             <nav className="mb-10 list-none">
               <li>
-                <a className="text-gray-600 hover:text-gray-800">About</a>
+                <a className="text-gray-600 hover:text-gray-800" href="/about">
+                  About
+                </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Courses</a>
+                <a className="text-gray-600 hover:text-gray-800" href="#">
+                  Courses
+                </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">
+                <a
+                  className="text-gray-600 hover:text-gray-800"
+                  href="#features"
+                >
                   Our Offerings
                 </a>
               </li>
@@ -73,14 +80,24 @@ function Footer() {
                 <a className="text-gray-600 hover:text-gray-800">Claim</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Privacy</a>
+                <a
+                  className="text-gray-600 hover:text-gray-800"
+                  href="/privacy"
+                >
+                  Privacy
+                </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Terms</a>
+                <a
+                  className="text-gray-600 hover:text-gray-800"
+                  href="/terms-policies"
+                >
+                  Terms & Policies
+                </a>
               </li>
-              <li>
+              {/* <li>
                 <a className="text-gray-600 hover:text-gray-800">Policies</a>
-              </li>
+              </li> */}
             </nav>
           </div>
         </div>

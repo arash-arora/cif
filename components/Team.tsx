@@ -12,7 +12,7 @@ function Team() {
     {
       link: 'https://drive.google.com/uc?export=view&id=1PGFjrBG47n9Tb5iPDFJdvQyyWoOyd382',
       name: 'Mr. Manoj Arora',
-      urlLinkedIn: 'https://in.linkedin.com/in/arash-arora',
+      urlLinkedIn: 'https://in.linkedin.com/in/',
       profession: 'Chief Technologist & Product Innovator',
       description:
         'Manoj Arora is a well-experienced mentor, an advisor, an investor, a strategist, and an efficient leader for product and business development innovation. He has worked as CXO’s for various renowned companies and was instrumental in initiating and creating digital platforms and products for them. He is deeply committed to adding value to the startup ecosystem and revolutionizing the entrepreneurship picture in India.',
@@ -20,7 +20,7 @@ function Team() {
     {
       link: 'https://drive.google.com/uc?export=view&id=1sTReb8QzmOzxK_eKlBi-9JmBtzSUR_Lc',
       name: 'Mr. Gagan Ghai',
-      urlLinkedIn: 'https://in.linkedin.com/in/arash-arora',
+      urlLinkedIn: 'https://in.linkedin.com/in/',
       profession: 'Business & Transacation Advisor',
       description:
         'For the last 20 years, he has been involved in analyzing, scaling & building sustainable businesses operating in a constantly evolving ecosystem. He has assumed very diverse roles, from being corporate treasurer, managing funds for family offices & corporate treasury, to serving CXO roles for growing corporates recently.',
@@ -28,26 +28,26 @@ function Team() {
     {
       // link: 'https://drive.google.com/uc?export=view&id=1VxIPzDNjZGRhlqXEq9XNbc2HrIxXlN6X',
       link: 'https://drive.google.com/uc?export=view&id=1aUb4-vA2RCAiH-SOG39jhMdk9e1CNPGJ',
-      name: 'Mr. Rajeev Bansal',
-      urlLinkedIn: 'https://in.linkedin.com/in/arash-arora',
-      profession: 'Business Advisor',
-      description:
-        'Mr. Rajeev Bansal has 26 years of experience in operating high-level business delegations and events globally. He’s having long work experience with the Confederation of India Industry CII and Reed Exhibitions Private. Ltd. (RX) which gives him an extra edge to deal with people in Government and Corporate simultaneously for smooth operations and great results.',
-    },
-    {
-      link: 'https://drive.google.com/uc?export=view&id=1_-UZHsasxVId04vSHvBmyJ36jUDlOuBG',
-      name: 'Mr. Abhimanyu Singh ',
-      urlLinkedIn: 'https://in.linkedin.com/in/arash-arora',
+      name: 'Mr. Abhimanyu Singh',
+      urlLinkedIn: 'https://in.linkedin.com/in/',
       profession: 'Business Advisor',
       description:
         'A Hotel Management Graduate and MBA from IMS Indore has worked with different teams across the globe in his approximate two decades of work experience. Starting as a bartender just after his graduation he has sold timeshares, hotel rooms, travel packages, space selling, Conference and exhibition selling, and a lot more.',
+    },
+    {
+      link: 'https://drive.google.com/uc?export=view&id=1_-UZHsasxVId04vSHvBmyJ36jUDlOuBG',
+      name: 'Mr. Rajeev Bansal',
+      urlLinkedIn: 'https://in.linkedin.com/in/',
+      profession: 'Business Advisor',
+      description:
+        'Mr. Rajeev Bansal has 26 years of experience in operating high-level business delegations and events globally. He’s having long work experience with the Confederation of India Industry CII and Reed Exhibitions Private. Ltd. (RX) which gives him an extra edge to deal with people in Government and Corporate simultaneously for smooth operations and great results.',
     },
   ]
   return (
     <div className="mx-auto mt-20 flex max-w-6xl">
       <div className="w-full text-justify">
         <div>
-          <h1 className="text-5xl font-bold">team</h1>
+          <h1 className="text-5xl font-bold">Team</h1>
           <p className="text-md mt-2 text-[#999]">
             Meet our diverse team of professionals
           </p>
@@ -56,7 +56,7 @@ function Team() {
           {team.map((member) => {
             return (
               <div className="mb-24 h-80" id={member.name}>
-                <div className="group relative w-[200px] md:w-[400px]">
+                <div className="group relative w-[200px] md:w-[280px]">
                   <img src={member.link} alt="" className="h-80 w-full" />
                   <Link href={member.urlLinkedIn}>
                     <div className="absolute left-0 bottom-0 inline-flex cursor-pointer items-center rounded-md bg-white p-2 px-3 py-2 text-base font-medium text-white opacity-80 hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 group-hover:bg-blue-700 group-hover:opacity-100">
