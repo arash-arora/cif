@@ -54,7 +54,10 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800" href="#">
+                <a
+                  className="text-gray-600 hover:text-gray-800"
+                  href="https://courses.wavemakers.in"
+                >
                   Courses
                 </a>
               </li>
