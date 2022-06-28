@@ -45,12 +45,12 @@ const resources = [
     // href: '/register-as-a-startup',
     icon: MdBusinessCenter,
   },
-  // {
-  //   name: 'As a Student',
-  //   description: 'Register as yourself as a student.',
-  //   href: 'https://wavemakersventures7385.ongraphy.com/s/store',
-  //   icon: FaUniversity,
-  // },
+  {
+    name: 'For a Course',
+    description: 'Register for a course.',
+    href: 'https://forms.gle/AGpJfVhGC6HHUnkD8',
+    icon: FaUniversity,
+  },
   {
     name: 'As an Entrepreneur',
     description: 'Register as yourself as an entrepreneur.',
@@ -102,7 +102,7 @@ export default function Example() {
             >
               About
             </a>
-            <Link href="/#features">
+            <Link href="/#features" scroll={false}>
               <a className="text-base font-medium text-gray-500 transition hover:text-gray-900">
                 Our Offerings
               </a>
