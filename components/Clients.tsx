@@ -40,6 +40,28 @@ function Clients() {
       },
     ],
   }
+  const images = [
+    {
+      src: 'https://www.iconexgulf.com/assets/img/logo-black.png',
+      h: 80,
+      w: 200,
+    },
+    {
+      src: 'http://crestinnovations.com/images/logo.png',
+      h: 90,
+      w: 260,
+    },
+    {
+      src: 'https://www.santosh.ac.in/assets/img/logo%20(6).png',
+      h: 100,
+      w: 100,
+    },
+    {
+      src: 'https://www.icmr.gov.in/img/core-img/icmrlogo.png',
+      h: 100,
+      w: 300,
+    },
+  ]
   return (
     <div className="mx-auto mt-16 text-center">
       <h1
@@ -57,7 +79,14 @@ function Clients() {
 
       <div>
         <Slider {...settings}>
-          <div className="m-3">
+          {images.map((image) => {
+            return (
+              <div className="m-3">
+                <Image src={image.src} height={image.h} width={image.w} />
+              </div>
+            )
+          })}
+          {/* <div className="m-3">
             <Image
               src="https://www.iconexgulf.com/assets/img/logo-black.png"
               height={80}
@@ -78,7 +107,7 @@ function Clients() {
               width={140}
             />
           </div> */}
-          <div className="m-3">
+          {/* <div className="m-3">
             <Image
               src="https://www.santosh.ac.in/assets/img/logo%20(6).png"
               height={100}
@@ -91,7 +120,7 @@ function Clients() {
               height={100}
               width={300}
             />
-          </div>
+        </div>*/}
           <div className="m-3 w-24 bg-slate-800">
             <Image
               src="http://crestcapitaladvisors.in/assets/images/logo.png"

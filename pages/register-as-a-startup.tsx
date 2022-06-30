@@ -9,12 +9,10 @@ function about() {
       <Header />
       <Banner />
       <div className="mx-16">
-        {/* <Register /> */}
         <h1 className="mt-20 text-center text-5xl font-bold tracking-wider text-red-600">
           COMING SOON
         </h1>
       </div>
-      {/* <Footer /> */}
     </div>
   )
 }

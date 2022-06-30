@@ -70,7 +70,9 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Media</a>
+                <a className="text-gray-600 hover:text-gray-800" href="/media">
+                  Media
+                </a>
               </li>
             </nav>
           </div>
