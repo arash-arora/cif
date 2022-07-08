@@ -15,7 +15,7 @@ const Home: NextPage = () => {
     <div className="overflow-x-hidden backdrop-blur-sm">
       <Head>
         <title>Crest Innovations</title>
-        <link rel="icon" href="" />
+        {/* <link rel="icon" href="" /> */}
       </Head>
       <Header />
       <Banner />
