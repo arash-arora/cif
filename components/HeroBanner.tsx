@@ -5,9 +5,9 @@ function HeroBanner() {
         <div className="sm:text-center lg:text-left">
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
             <span className="block xl:inline">
-              Wavemakers are on a mission to democratize access to
+              Crest Innovations are on a mission to democratize access to
             </span>{' '}
-            <span className="block text-blue-600 xl:inline">
+            <span className="block text-green-800 xl:inline">
               quality entrepreneurship
             </span>
           </h1>
@@ -21,7 +21,7 @@ function HeroBanner() {
             <div className="rounded-md shadow">
               <a
                 href="#"
-                className="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                className="flex w-full items-center justify-center rounded-md border border-transparent bg-green-800 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
               >
                 Contact
               </a>
@@ -29,7 +29,7 @@ function HeroBanner() {
             <div className="mt-3 sm:mt-0 sm:ml-3">
               <a
                 href="https://courses.wavemakers.in"
-                className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
+                className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-green-800 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
               >
                 Our Courses
               </a>

@@ -72,7 +72,7 @@ function Clients() {
       </h1>
       <div className="relative bottom-16">
         <h1 className="text-2xl font-semibold">Take a look at our clients</h1>
-        <p className="text-sm font-semibold tracking-wide text-blue-600">
+        <p className="text-sm font-semibold tracking-wide text-green-800">
           We did great job with these companies! You can be next to work with.
         </p>
       </div>

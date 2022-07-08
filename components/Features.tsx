@@ -47,7 +47,7 @@ export default function Example() {
     <div id="features" className="bg-white py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-base font-semibold uppercase tracking-wide text-indigo-600">
+          <h2 className="text-base font-semibold uppercase tracking-wide text-green-800">
             Features
           </h2>
           <p className="mt-2 text-4xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
@@ -64,7 +64,7 @@ export default function Example() {
             {features.map((feature) => (
               <div key={feature.name} className="relative">
                 <dt>
-                  <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-blue-500 text-white">
+                  <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-green-800 text-white">
                     <feature.icon className="h-6 w-6" aria-hidden="true" />
                   </div>
                   <p className="ml-16 text-lg font-medium leading-6 text-gray-900">

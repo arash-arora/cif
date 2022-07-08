@@ -13,25 +13,21 @@ function AboutUs() {
         </div>
         <div className="mt-5 font-serif text-[#969696]">
           <p>
-            We work with founders, ideators, and business owners to bring
-            Innovation & Differentiator to their respective businesses and
-            products. We also provide smart incubation services to germinate the
-            idea to business right from grass root level. Our strength lies in
-            bringing together a team of highly qualified, skilled, and motivated
-            professionals who are encouraged to lead, innovate and excel. With
-            our multidisciplinary expertise accentuated by our honored board of
-            advisors, across various industry segments, we have brought clarity
-            to difficult and complex business situations and provided scalable
-            business propositions with skin in the game.
+            Crest innovations is a Non-Profit Organization registered under
+            Section 8 of companies act 2013 and it is a part of Crest Advisors
+            Group. We work with founders, ideators and business owners to bring
+            Innovation in their respective business and products. We also
+            provide smart incubation services to germinate the idea to business
+            right from grass root level. Our strength lies in bringing together
+            team of highly qualified, skilled and motivated professionals who
+            are encouraged to lead, innovate and excel.
           </p>
           <p className="mt-4">
-            We have been recognized as preferred partners with many leading
-            Institutions and Consulting firms wherein we bring our expertise and
-            collaborate astute execution across GLOBALLY. Promoters of
-            WAVEMAKERS are active members of many Government and Private
-            initiatives & platforms like Startup India Initiative, MeitY, ATL,
-            and many other national and international forums.
-            <ul className="mt-4 ml-4 list-disc">
+            With our multidisciplinary expertise accentuated by our honored
+            board of advisors, across various industry segments, we have brought
+            clarity to difficult and complex business situations and to provide
+            scalable business propositions with skin in the game.
+            {/* <ul className="mt-4 ml-4 list-disc">
               <h1 className="mb-2 text-2xl font-bold">How Wavemakers help</h1>
               <li>
                 To choose the program that best fits your needs as a founder
@@ -47,7 +43,7 @@ function AboutUs() {
                 Prepare your pitch to potential investors and partners Develop
                 your Executive Summary as you build your business
               </li>
-            </ul>
+            </ul> */}
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import logo from '../assets/images/wavemakers1.png'
+import logo from '../assets/images/ci.png'
 import { Popover, Transition } from '@headlessui/react'
 import { FcBusinessman } from 'react-icons/fc'
 import Link from 'next/link'
@@ -158,7 +158,7 @@ export default function Example() {
                               className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                             >
                               <item.icon
-                                className="h-6 w-6 flex-shrink-0 text-blue-600"
+                                className="h-6 w-6 flex-shrink-0 text-green-700"
                                 aria-hidden="true"
                               />
                               <div className="ml-4">
@@ -196,7 +196,7 @@ export default function Example() {
                           <div className="mt-5 text-sm">
                             <a
                               href="#"
-                              className="font-medium text-blue-600 hover:text-blue-500"
+                              className="font-medium text-green-600 hover:text-green-500"
                             >
                               {' '}
                               View all posts{' '}
@@ -220,7 +220,7 @@ export default function Example() {
             </a> */}
             <a
               href="/contact"
-              className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-blue-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-blue-700"
+              className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-green-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-green-700"
             >
               Contact
             </a>
@@ -269,7 +269,7 @@ export default function Example() {
                       className="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50"
                     >
                       <item.icon
-                        className="h-6 w-6 flex-shrink-0 text-blue-600"
+                        className="h-6 w-6 flex-shrink-0 text-green-600"
                         aria-hidden="true"
                       />
                       <span className="ml-3 text-base font-medium text-gray-900">
@@ -281,7 +281,7 @@ export default function Example() {
               </div>
             </div>
             <div className="space-y-6 py-6 px-5 ">
-              <h1 className="text-xl font-semibold text-blue-600">Register</h1>
+              <h1 className="text-xl font-semibold text-green-600">Register</h1>
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                 {/* <a
                   href="#"
@@ -302,13 +302,13 @@ export default function Example() {
               {/* <div>
                 <a
                   href="#"
-                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-green-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
                 >
                   Sign up
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                   Existing customer?{' '}
-                  <a href="#" className="text-blue-600 hover:text-blue-500">
+                  <a href="#" className="text-green-600 hover:text-green-500">
                     Sign in
                   </a>
                 </p>

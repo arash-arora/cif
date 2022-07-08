@@ -50,7 +50,7 @@ function Startups() {
       </h1>
       <div className="relative bottom-16">
         <h1 className="text-2xl font-semibold">Take a look at our startups</h1>
-        <p className="text-sm font-semibold tracking-wide text-blue-600">
+        <p className="text-sm font-semibold tracking-wide text-green-800">
           We did great job with these companies! You can be next to work with.
         </p>
       </div>
@@ -58,22 +58,22 @@ function Startups() {
       <div>
         <Slider {...settings}>
           <div className="m-3 mx-4">
-            <h1 className="flex h-16 w-52 items-center justify-center rounded-full border-2 border-blue-600 py-1 px-1 text-2xl font-semibold tracking-wider text-gray-600 transition hover:bg-blue-600 hover:text-white ">
+            <h1 className="flex h-16 w-52 items-center justify-center rounded-full border-2 border-green-600 py-1 px-1 text-2xl font-semibold tracking-wider text-gray-600 transition hover:bg-green-600 hover:text-white ">
               Healthyssure
             </h1>
           </div>
           <div className="m-3">
-            <h1 className="flex h-16 w-52 items-center justify-center rounded-full border-2 border-blue-600 px-1 py-1 text-2xl font-semibold tracking-wider text-gray-600 transition hover:bg-blue-600 hover:text-white ">
+            <h1 className="flex h-16 w-52 items-center justify-center rounded-full border-2 border-green-600 px-1 py-1 text-2xl font-semibold tracking-wider text-gray-600 transition hover:bg-green-600 hover:text-white ">
               Herbicure
             </h1>
           </div>
           <div className="m-3">
-            <h1 className="flex h-16 w-52 items-center justify-center rounded-full border-2 border-blue-600 px-1 py-1 text-2xl font-semibold tracking-wider text-gray-600 transition hover:bg-blue-600 hover:text-white ">
+            <h1 className="flex h-16 w-52 items-center justify-center rounded-full border-2 border-green-600 px-1 py-1 text-2xl font-semibold tracking-wider text-gray-600 transition hover:bg-green-600 hover:text-white ">
               Noor
             </h1>
           </div>
           <div className="m-3">
-            <h1 className="flex h-16 w-52 items-center justify-center rounded-full border-2 border-blue-600 px-1 py-1 text-2xl font-semibold tracking-wider text-gray-600 transition hover:bg-blue-600 hover:text-white ">
+            <h1 className="flex h-16 w-52 items-center justify-center rounded-full border-2 border-green-600 px-1 py-1 text-2xl font-semibold tracking-wider text-gray-600 transition hover:bg-green-600 hover:text-white ">
               Oshellare
             </h1>
           </div>

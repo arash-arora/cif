@@ -26,21 +26,11 @@ function Team() {
         'For the last 20 years, he has been involved in analyzing, scaling & building sustainable businesses operating in a constantly evolving ecosystem. He has assumed very diverse roles, from being corporate treasurer, managing funds for family offices & corporate treasury, to serving CXO roles for growing corporates recently.',
     },
     {
-      // link: 'https://drive.google.com/uc?export=view&id=1VxIPzDNjZGRhlqXEq9XNbc2HrIxXlN6X',
-      link: 'https://drive.google.com/uc?export=view&id=1aUb4-vA2RCAiH-SOG39jhMdk9e1CNPGJ',
-      name: 'Mr. Abhimanyu Singh',
+      link: 'https://cdn-icons.flaticon.com/png/512/2102/premium/2102647.png?token=exp=1657251766~hmac=8d9ee90351647d63aaf1dda41b1650d0',
+      name: 'Dr. Namrata Ghai',
       urlLinkedIn: 'https://in.linkedin.com/in/',
       profession: 'Business Advisor',
-      description:
-        'A Hotel Management Graduate and MBA from IMS Indore has worked with different teams across the globe in his approximate two decades of work experience. Starting as a bartender just after his graduation he has sold timeshares, hotel rooms, travel packages, space selling, Conference and exhibition selling, and a lot more.',
-    },
-    {
-      link: 'https://drive.google.com/uc?export=view&id=1_-UZHsasxVId04vSHvBmyJ36jUDlOuBG',
-      name: 'Mr. Rajeev Bansal',
-      urlLinkedIn: 'https://in.linkedin.com/in/',
-      profession: 'Business Advisor',
-      description:
-        'Mr. Rajeev Bansal has 26 years of experience in operating high-level business delegations and events globally. He’s having long work experience with the Confederation of India Industry CII and Reed Exhibitions Private. Ltd. (RX) which gives him an extra edge to deal with people in Government and Corporate simultaneously for smooth operations and great results.',
+      description: 'Doctor.',
     },
   ]
   return (

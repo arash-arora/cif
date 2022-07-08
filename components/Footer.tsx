@@ -1,4 +1,4 @@
-import logo from '../assets/images/wavemakers1.png'
+import logo from '../assets/images/ci.png'
 import Image from 'next/image'
 function Footer() {
   //F9FAFB
@@ -110,21 +110,18 @@ function Footer() {
       <div className="bg-white">
         <div className="container mx-auto flex flex-col flex-wrap py-4 px-5 sm:flex-row">
           <p className="text-center text-sm text-gray-500 sm:text-left">
-            © 2022 Wavemakers —
+            © 2022 Crest Innovations —
             <a
-              href="https://twitter.com/knyttneve"
+              href=""
               rel="noopener noreferrer"
               className="ml-1 text-gray-600"
               target="_blank"
             >
-              @wavemakers
+              @crestinnovations
             </a>
           </p>
           <span className="mt-2 inline-flex justify-center sm:ml-auto sm:mt-0 sm:justify-start">
-            <a
-              href="https://www.facebook.com/wavemakerss"
-              className="text-gray-500"
-            >
+            <a href="" className="text-gray-500">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -148,10 +145,7 @@ function Footer() {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a>
-            <a
-              className="ml-3 text-gray-500"
-              href="https://instagram.com/_wave_makers?igshid=YmMyMTA2M2Y="
-            >
+            <a className="ml-3 text-gray-500" href="">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -165,10 +159,7 @@ function Footer() {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a
-              className="ml-3 text-gray-500"
-              href="https://www.linkedin.com/company/79148449/admin/"
-            >
+            <a className="ml-3 text-gray-500" href="https://www.linkedin.com/">
               <svg
                 fill="currentColor"
                 stroke="currentColor"

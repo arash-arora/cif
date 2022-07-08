@@ -1,7 +1,7 @@
 function Stats() {
   const style = {
     box: `py-4 px-5 rounded mt-5 lg:px-20 bg-white shadow-md`,
-    boxHead: `text-2xl md:text-4xl lg:text-5xl font-bold text-blue-600`,
+    boxHead: `text-2xl md:text-4xl lg:text-5xl font-bold text-green-800`,
     boxPara: `mt-4 text-gray-700`,
   }
   return (
